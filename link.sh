@@ -10,4 +10,4 @@ ln -fs ${DIR}/brew_cask_update.sh ${BIN}/
 ln -fs ${DIR}/pip_update.sh ${BIN}/
 ln -fs ${DIR}/update.plist ${HOME}/Library/LaunchAgents/
 
-launchctl load ${BIN}/update.plist
+launchctl load ${HOME}/Library/LaunchAgents/update.plist

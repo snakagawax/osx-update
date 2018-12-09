@@ -1,6 +1,6 @@
 #!bin/bash
 
-DIR=/usr/local/bin/
+DIR=/usr/local/bin
 LOG_DIRECTORY=${HOME}/logs
 SUMMARY_DIRECTORY=${LOG_DIRECTORY}/update
 TMP_DIRECTORY=${HOME}/tmp
